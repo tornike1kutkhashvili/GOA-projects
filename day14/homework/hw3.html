@@ -1,0 +1,37 @@
+<!-- 3) შექმენით ფორმა, სადაც მომხმარებელს დაუსვამთ ნებისმიერ კითხვას(ამისთვის დაგჭირდებათ label-ი) 4 პასუხის გაცემის ვარიანტით.
+(ამ ვარიანტებისთვის გამოიყენეთ radio ტიპის input-ი). -->
+<!-- მომხმარებელს უნდა შეეძლოს მხოლოდ ერთი ვარიანტის არჩევა და ფორმის დადასტურება -->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Form</title>
+</head>
+<body>
+
+<h2>შეკითხვა</h2>
+
+<form>
+    <!-- კითხვა -->
+    <label for="question">რომელი არის საქართველოს დედაქალაქი?</label><br><br>
+
+    <!-- პასუხის ვარიანტები (radio) -->
+    <input type="radio" id="tbilisi" name="capital" value="tbilisi">
+    <label for="tbilisi">თბილისი</label><br>
+
+    <input type="radio" id="batumi" name="capital" value="batumi">
+    <label for="batumi">ბათუმი</label><br>
+
+    <input type="radio" id="kutaisi" name="capital" value="kutaisi">
+    <label for="kutaisi">ქუთაისი</label><br>
+
+    <input type="radio" id="rustavi" name="capital" value="rustavi">
+    <label for="rustavi">რუსთავი</label><br><br>
+
+    <!-- Submit ღილაკი -->
+    <input type="submit" value="დადასტურება">
+</form>
+
+</body>
+</html>

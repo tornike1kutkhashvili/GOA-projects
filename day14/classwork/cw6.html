@@ -1,0 +1,51 @@
+<!-- 6)გააკეთე იგივე ფორმა: -->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+<body>
+
+<h2>რეგისტრაციის ფორმა</h2>
+
+<form>
+    <!-- სახელი -->
+    <label for="firstname">სახელი:</label>
+    <input type="text" id="firstname" name="firstname">
+    <br><br>
+
+    <!-- გვარი -->
+    <label for="lastname">გვარი:</label>
+    <input type="text" id="lastname" name="lastname">
+    <br><br>
+
+    <!-- ელფოსტა -->
+    <label for="email">ელფოსტა:</label>
+    <input type="email" id="email" name="email">
+    <br><br>
+
+    <!-- სქესი (checkbox) -->
+    <label>სქესი:</label><br>
+    <input type="checkbox" id="male" name="gender" value="male">
+    <label for="male">მამრობითი</label><br>
+    <input type="checkbox" id="female" name="gender" value="female">
+    <label for="female">მდედრობითი</label><br><br>
+
+    <!-- ქვეყანა (select) -->
+    <label for="country">ქვეყანა:</label>
+    <select id="country" name="country">
+        <option value="india" selected>India</option>
+        <option value="usa">USA</option>
+        <option value="georgia">Georgia</option>
+        <option value="uk">UK</option>
+    </select>
+    <br><br>
+
+    <!-- Submit ღილაკი -->
+    <input type="submit" value="გაგზავნა">
+</form>
+
+</body>
+</html>

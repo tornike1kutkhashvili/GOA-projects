@@ -1,0 +1,39 @@
+<!-- 4) შექმენით ფორმა სადაც იქნება: სახელი, გვარი, პაროლი, მეილი და გაგზავნის ღილაკი, ინფორმაცია კი არ გაიგზავნოს იქამდე სანამ მომხმარებელი ყველა input არ შეავსებს (ამ დავალებისთვის შეისწავლეთ input-ის ახალი ატრიბუტი სახელად required) -->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form with Required Fields</title>
+</head>
+<body>
+
+<h2>რეგისტრაციის ფორმა</h2>
+
+<form>
+    <!-- სახელი -->
+    <label for="firstname">სახელი:</label>
+    <input type="text" id="firstname" name="firstname" required>
+    <br><br>
+
+    <!-- გვარი -->
+    <label for="lastname">გვარი:</label>
+    <input type="text" id="lastname" name="lastname" required>
+    <br><br>
+
+    <!-- პაროლი -->
+    <label for="password">პაროლი:</label>
+    <input type="password" id="password" name="password" required>
+    <br><br>
+
+    <!-- მეილი -->
+    <label for="email">მეილი:</label>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+
+    <!-- Submit ღილაკი -->
+    <input type="submit" value="გაგზავნა">
+</form>
+
+</body>
+</html>
