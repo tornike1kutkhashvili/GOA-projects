@@ -3,7 +3,7 @@
 # თქვენი სახელის გვარის ასაკის სიმაღლის ქალაქის სადაც ცხოვრობთ და ასე შემდეგ.
 # ამ ცვლადების გამოყენებით დაბეჭდეთ ერთი მთლიანი წინადადება.
 
-
+#ვქმნით იმ ცვლადებს რაც დავალებაშია მითითებული
 my_name = ("Tornike")
 
 my_surname = ("Kutkhashvili")
@@ -14,5 +14,5 @@ my_height = 1.72
 
 my_age = 15
 
-
-print(f"my name is {my_name} {my_surname}. my height is {my_height} i am {my_age} years old and i live in {city}")
+#დავპრინტოთ მთლიანი წინადადება
+print(f"my name is {my_name} {my_surname}. my height is {my_height}. i am {my_age} years old and i live in {city}")

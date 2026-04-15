@@ -1,5 +1,1 @@
-
-band = "Beatles"
-song = "Yesterday"
-song = "Let it be"
-print(song)
+# დებაგინგი (Debugging) პროგრამირებაში ნიშნავს: შეცდომების (ბაგების) პოვნას და გამოსწორება კოდში.

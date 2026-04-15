@@ -1,6 +1,7 @@
-name = "giorgi"
-print(name)
-name = "vano"
-Name = "nika"
-NAME = "saba"
-print(Name)
+# name = "giorgi"
+# print(name)
+# name = "vano"
+# Name = "nika"
+# NAME = "saba"
+# print(Name)
+# es kodi gamotans giorgis da nikas
