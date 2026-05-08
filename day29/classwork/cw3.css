@@ -1,0 +1,11 @@
+.diva {
+    width: 400px;
+    height: 400px;
+    background-color: beige;
+}
+
+.diva p {
+    width: 25%;
+    height: 25%;
+    background-color: black;
+}
