@@ -1,0 +1,22 @@
+#p1 {
+    color: blue;
+    background-color: grey;
+    font-size: 30px;
+}
+
+p {
+    color: grey;
+    background-color: blue;
+    font-size: 31px;
+}
+
+b {
+    color: blue;
+    background-color: grey;
+    font-size: 30px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
