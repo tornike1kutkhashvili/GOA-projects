@@ -1,0 +1,11 @@
+/* 4)შექმენი ახალი ცხრილი ოღონდ ამჟამად დაშორებული ბორდერების მქონე, ამ ცხრილს უნდა ქონდეს 4 row და 4 column */
+
+table{
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+td{
+    border: 2px solid black;
+    padding: 10px;
+}

@@ -1,0 +1,10 @@
+/* 3)შექმენი შეტყუპებული ბორდერების მქონე ცხრილი, ცხრილს უნდა ქონდეს მინიმუმ სამი row და სამი column */
+
+table{
+    border-collapse: collapse;
+}
+
+td{
+    border: 2px solid rgb(255, 0, 0);
+    padding: 10px;
+}

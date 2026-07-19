@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:300px;
+    height:500px;
+    border:2px solid black;
+    display:flex;
+    flex-direction:column;
+}
+
+.box{
+    width:70px;
+    height:70px;
+    background:tomato;
+}
+
+.top{
+    align-self:center;
+}
+
+.center{
+    align-self:center;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.bottom{
+    align-self:center;
+    margin-top:auto;
+}

@@ -1,0 +1,22 @@
+.leaderboard{
+    display:flex;
+    align-items:baseline;
+}
+
+.player{
+    background:lightblue;
+    padding:15px;
+    border:2px solid black;
+}
+
+.first{
+    font-size:40px;
+}
+
+.second{
+    font-size:30px;
+}
+
+.third{
+    font-size:20px;
+}

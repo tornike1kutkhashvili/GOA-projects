@@ -3,7 +3,7 @@
 def join_clone(names):
     result = ''
     for i in names:
-        result += i + ''
+        result += i
     return result
 
 
