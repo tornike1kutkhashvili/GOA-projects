@@ -1,0 +1,46 @@
+/* 3) შექმენი div-ი რომელსაც გაუწერ display: flex და სიმაღლე 300px. მასში ჩავსი 5 div-ი და align-self ის გამოყენებით განათავსე ისინი ისე რომ პირველი იყოს ზედა ნაწილში,მეორე ქვედა ნაწილში,მესამე შუაში,მეოთხე ზედა ნაწილში და მეხუთე ქვედა ნაწილში. */
+
+#parent {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+
+.child1 {
+    align-self: flex-start;
+    width: 50px;
+    height: 30px;
+    background-color: red;
+}
+
+.child2 {
+    align-self: flex-start;
+    width: 50px;
+    height: 30px;
+    background-color: blue;
+    transform: translateY(30px);
+}
+
+.child3 {
+    align-self: flex-start;
+    width: 50px;
+    height: 30px;
+    background-color: green;
+    transform: translateY(60px);
+}
+
+.child4 {
+    align-self: flex-start;
+    width: 50px;
+    height: 30px;
+    background-color: yellow;
+    transform: translateY(90px);
+}
+
+.child5 {
+    align-self: flex-start;
+    width: 50px;
+    height: 30px;
+    background-color: orange;
+    transform: translateY(120px);
+}

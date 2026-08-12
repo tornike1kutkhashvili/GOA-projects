@@ -1,0 +1,30 @@
+.parent{
+    display: flex;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.box{
+    width: 70px;
+    height: 70px;
+}
+
+.one{
+    background-color: red;
+    align-self: flex-start;
+}
+
+.two{
+    background-color: blue;
+    align-self: center;
+}
+
+.three{
+    background-color: green;
+    align-self: flex-end;
+}
+
+.four{
+    background-color: orange;
+    align-self: center;
+}

@@ -1,0 +1,26 @@
+/* 2.შექმენი ერთი div-ი და გაუწერე მას display flex-ი. მასში მოათავსე სამი div-ი,მიანიჭე მათ background ფერები და გამოიყენე მათზე flex-grow. პირველ div-ს გაუწერე flex-grow: 1,მეორეს flex-grow: 2,ხოლო მესამეს flex-grow:3. ახსენი როგორ განაწილდა სივრცე ამ სამ div-ზე. */
+
+.parent{
+    display: flex;
+    height: 150px;
+    border: solid;
+}
+
+.c{
+    height: 100%;
+}
+
+.c1{
+    background-color: red;
+    flex-grow: 1;
+}
+
+.c2{
+    background-color: blue;
+    flex-grow: 2;
+}
+
+.c3{
+    background-color: green;
+    flex-grow: 3;
+}

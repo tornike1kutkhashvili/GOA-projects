@@ -1,0 +1,31 @@
+/* 2) შექმენი ერთი div, რომელსაც გაუწერ display: flex-ს. მასში მოათავსე 3 div, ყველას მიეცი width: 250px, ხოლო მშობელ div-ს width: 500px. პირველ div-ს გაუწერე flex-shrink: 1,მეორეს flex-shrink: 0,ხოლო მესამეს flex-shrink: 2.ახსენი რატომ შემცირდა ზოგი ელემენტი სხვებზე მეტად. */
+
+#parent {
+    display: flex;
+    background-color: blueviolet;
+    width: 500px;
+    height: 100px;
+}
+
+.child1 {
+    background-color: red;
+    width: 250px;
+    flex-shrink: 1;
+    height: 100px;
+}
+
+
+.child2 {
+    background-color: blue;
+    width: 250px;
+    flex-shrink: 0;
+    height: 100px;
+}
+
+
+.child3 {
+    background-color: green;
+    width: 250px;
+    flex-shrink: 2;
+    height: 100px;
+}

@@ -1,1 +1,0 @@
-print("tornike kutkhashvili")
