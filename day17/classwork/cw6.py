@@ -7,4 +7,4 @@ for num in nums:
     if num % 2 == 0:
         even_sum += num
 
-print(even_sum)
+print(even_sum) 

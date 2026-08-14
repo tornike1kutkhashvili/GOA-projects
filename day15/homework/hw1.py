@@ -4,4 +4,4 @@ name = input("enter your name: ")
 if name == 'tornike':
     print('hellow')
 else:
-    print("bay")
+    print("bay") 

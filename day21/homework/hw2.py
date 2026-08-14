@@ -11,4 +11,4 @@ surname = input("Enter your surname: ")
 # 3
 age = int("20")
 number = int("50")
-year = int("2024")
+year = int("2024") 

@@ -3,4 +3,4 @@
 words = ["goga", "nika", "dato", "ana", "luka"]
 
 for word in words:
-    print(word.capitalize())
+    print(word.capitalize()) 

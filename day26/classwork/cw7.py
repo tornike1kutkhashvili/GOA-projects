@@ -4,4 +4,4 @@ def sum(list):
     sul = 0
     for num in list:
         sul += num
-    print(sul)
+    print(sul) 

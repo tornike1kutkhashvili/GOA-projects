@@ -2,4 +2,4 @@
 
 # .upper() - stringi gamoakvs didi asoebit
 # .lower() - stringi gamoakvs patara asoebit
-# .capitalize() - pirvel asos wers didad mxolod
+# .capitalize() - pirvel asos wers didad mxolod 

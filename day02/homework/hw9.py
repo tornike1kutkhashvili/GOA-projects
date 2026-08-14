@@ -9,4 +9,4 @@ discount = 0.5
 
 final_price = price - (price * discount)
 
-print(f"საბოლოო ფასი ფასდაკლების შემდეგ იქნება {final_price}")
+print(f"საბოლოო ფასი ფასდაკლების შემდეგ იქნება {final_price}") 

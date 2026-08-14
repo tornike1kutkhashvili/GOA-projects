@@ -6,3 +6,4 @@ name1 = "tornike"
 
 print(num1 > 15 and name1 == "tornike")
 
+ 

@@ -7,4 +7,4 @@ def number(num):
         print('კენტი')
 
 
-number(4)
+number(4) 

@@ -4,4 +4,4 @@ def list_length(list):
     count = 0
     for item in list:
         count += 1
-    print(count)
+    print(count) 

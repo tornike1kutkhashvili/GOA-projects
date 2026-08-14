@@ -4,4 +4,4 @@ num = [1,2,3,4,5,6,7,8,9,10]
 
 n = int(input('enter name from 1 to 5'))
 
-print(num[0:-1:n])
+print(num[0:-1:n]) 

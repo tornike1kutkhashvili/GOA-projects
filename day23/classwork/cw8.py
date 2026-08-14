@@ -7,4 +7,4 @@ if "გიორგი" in names:
 else:
     print(names)
 
-print(names)
+print(names) 

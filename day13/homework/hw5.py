@@ -5,4 +5,4 @@ user = int(input("enter your password: "))
 while password != user:
     user = int(input("enter your password: "))
 
-print('correct')
+print('correct') 

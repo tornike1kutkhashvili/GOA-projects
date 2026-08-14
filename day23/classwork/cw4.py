@@ -5,4 +5,4 @@ surname = input("შეიყვანე გვარი: ")
 if "ტ" in surname:
     print(True)
 else:
-    print(False)
+    print(False) 

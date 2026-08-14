@@ -6,4 +6,4 @@ def square(num):
     else:
         print("inccorect answer")
 
-square(4)
+square(4) 

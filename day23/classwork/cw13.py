@@ -6,4 +6,4 @@ for i in range(3):
     value = input("შეიყვანე რამე: ")
     items.append(value)
 
-print(items)
+print(items) 

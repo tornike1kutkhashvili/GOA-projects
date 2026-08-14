@@ -8,4 +8,4 @@ height = int(input("Enter your height: "))
 if age > 18 and name == "tornike" and height > 1.80:
     print("right")
 else:
-    print("inccorect")
+    print("inccorect") 

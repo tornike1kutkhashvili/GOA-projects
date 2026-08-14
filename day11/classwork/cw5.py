@@ -8,4 +8,4 @@
 # random = "saba"
 # print("saba"==random or 17%2==0)
 
-# გამოიტანს სამცალ true -ს
+# გამოიტანს სამცალ true -ს 

@@ -7,4 +7,4 @@ float = (1.15)
 
 #დავპრინტოთ მათი ჯამი ეკრანზე
 
-print (number + float)
+print (number + float) 

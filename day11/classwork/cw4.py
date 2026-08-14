@@ -3,4 +3,4 @@
 num1 = int(input("enter your age: "))
 name = input("enter your name: ")
 
-print(num1 > 18 and name == "andrew")
+print(num1 > 18 and name == "andrew") 

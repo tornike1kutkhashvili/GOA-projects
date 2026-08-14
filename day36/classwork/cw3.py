@@ -4,4 +4,4 @@
 names = {'tornike', 'nuca', 'lizi'}
 names.add('nika')
 names.discard('giorgi')
-print(names)
+print(names) 

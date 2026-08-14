@@ -6,4 +6,4 @@ surname = input("enter your surname: ")
 if surname[:5] == my_name[:5]:
     print('almost same')
 else:
-    print('bay')
+    print('bay') 

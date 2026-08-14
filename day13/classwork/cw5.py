@@ -2,4 +2,4 @@
 
 i = "tornike"
 for i in i:
-    print(i)
+    print(i) 

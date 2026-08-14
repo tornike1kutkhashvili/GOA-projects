@@ -7,4 +7,4 @@ if age > 18:
 elif age > 13 and age < 18:
     print('teenn')
 else:
-    print('child')
+    print('child') 

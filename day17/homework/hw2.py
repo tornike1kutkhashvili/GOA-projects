@@ -3,4 +3,4 @@
 elements = [1,2,4,'num',1/3,True]
 
 for i in elements:
-    print(type(i))
+    print(type(i)) 

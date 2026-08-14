@@ -7,4 +7,4 @@ def palindrom(str):
         print('inccorect')
 
 
-palindrom('goa')
+palindrom('goa') 

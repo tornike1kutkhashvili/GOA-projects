@@ -7,4 +7,4 @@ if age == age1:
 elif age1 >  age:
     print("more")
 else:
-    print("less")
+    print("less") 

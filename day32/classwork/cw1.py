@@ -8,4 +8,4 @@ def join_clone(names):
 
 
 name = ['saba', 'nika', 'luka']
-print(join_clone(name))
+print(join_clone(name)) 

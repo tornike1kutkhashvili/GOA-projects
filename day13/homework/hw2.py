@@ -2,4 +2,4 @@
 
 surename = input("enter your surname: ")
 for i in surename:
-    print(i)
+    print(i) 

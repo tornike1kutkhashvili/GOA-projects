@@ -7,4 +7,4 @@ operator4 = (10 > 25)
 operator5 = (10 < 10)
 operator6 = (10 != 15)
 
-print(operator1,operator2,operator3,operator4,operator5,operator6)
+print(operator1,operator2,operator3,operator4,operator5,operator6) 

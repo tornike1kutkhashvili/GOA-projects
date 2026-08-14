@@ -2,4 +2,4 @@
 
 movie = "southpaw"
 
-print(movie[::2])
+print(movie[::2]) 

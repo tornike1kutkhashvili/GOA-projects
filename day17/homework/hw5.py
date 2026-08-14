@@ -8,3 +8,4 @@ for i in names:
     if index % 2 == 0:
         print(names[index])
     index += 1
+ 

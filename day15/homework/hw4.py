@@ -5,4 +5,4 @@ if favourite_number % 3 == 0:
     if favourite_number % 5 == 0:
         print("best number")
 else:
-    print('bad number5')
+    print('bad number5') 

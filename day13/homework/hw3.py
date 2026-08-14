@@ -5,4 +5,4 @@ for i in range(150):
         print("the nomber is even:")
 
     else:
-        print("the number is odd:")
+        print("the number is odd:") 

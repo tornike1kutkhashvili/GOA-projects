@@ -14,4 +14,4 @@ def split_clon(strings):
     return result # aq ukve vabrunebt saboloo shedegs
 
 
-print(split_clon('gaumarjos brat rogor xar'))
+print(split_clon('gaumarjos brat rogor xar')) 

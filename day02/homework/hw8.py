@@ -9,4 +9,4 @@ people = (4)
 
 result = (total / people)
 
-print(f"თითოეული ადამიანი იხდის {result} ლარს")
+print(f"თითოეული ადამიანი იხდის {result} ლარს") 

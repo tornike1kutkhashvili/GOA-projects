@@ -2,4 +2,4 @@
 
 name = input("enter your name; ")
 
-print(name[1:4])
+print(name[1:4]) 

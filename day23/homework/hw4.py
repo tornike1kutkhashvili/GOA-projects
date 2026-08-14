@@ -3,4 +3,4 @@
 words = ["a", "b", "c", "d", "e"]
 
 for i in words:
-    print(i.upper())
+    print(i.upper()) 

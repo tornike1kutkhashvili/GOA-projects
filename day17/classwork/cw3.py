@@ -4,4 +4,4 @@ numbers = [3, 7, 9, 12, 14, 18, 20, 21, 25, 30]
 
 for num in numbers:
     if num % 3 == 0:
-        print("divisible by 3")
+        print("divisible by 3") 

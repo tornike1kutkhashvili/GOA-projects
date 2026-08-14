@@ -2,4 +2,4 @@
 
 drink = {'fuse tea','capy','fanta','wyali'}
 drink.remove('fanta')
-print(drink)
+print(drink) 

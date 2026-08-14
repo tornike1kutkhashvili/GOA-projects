@@ -11,4 +11,4 @@ elif name == "ლევანი":
     else:
         print("someone likes other film")
 else:
-    print("someone likes other film")
+    print("someone likes other film") 

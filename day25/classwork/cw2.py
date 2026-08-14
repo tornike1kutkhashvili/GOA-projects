@@ -2,4 +2,4 @@
 
 rendom = "lesson"
 for i in rendom:
-    print(i)
+    print(i) 

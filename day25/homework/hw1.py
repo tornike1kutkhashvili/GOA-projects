@@ -1,1 +1,1 @@
-# ar mkonda sashinao davaleba iyo ganmeorebiti gakvetili
+# ar mkonda sashinao davaleba iyo ganmeorebiti gakvetili 

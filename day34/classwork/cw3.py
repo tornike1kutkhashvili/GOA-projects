@@ -15,3 +15,4 @@ fruits = tuple(fruits_list)
 print(green)
 print(red)
 print(yellow)
+ 

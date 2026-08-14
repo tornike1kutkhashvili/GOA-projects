@@ -16,4 +16,4 @@ for i in numbers:
         print("zero")
 
 print(f"Positive Sum = {positive}")
-print(f"Negative sum = {negative}")
+print(f"Negative sum = {negative}") 

@@ -4,4 +4,4 @@ names = ["gio", "nika", "goga", "ana", "giorgi", "luka"]
 
 for name in names:
     if name.startswith("g"):
-        print(name, True)
+        print(name, True) 

@@ -9,4 +9,4 @@
 # union () - gamoiyeneba 2 setis shesaerteblad
 # intersection () - ori setidan vigebt saerto elemets
 # difference () - gbibrunebs pirveli setidan universalur elementebs(iseti romelic arariis meore/sxva setshi)
-# dymmetric_differnce () - gvibrunebs 2 setis jams (dublikatebis gareshe)
+# dymmetric_differnce () - gvibrunebs 2 setis jams (dublikatebis gareshe) 

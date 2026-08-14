@@ -5,3 +5,4 @@ if len(password) <= 8:
     print("სუსტი პაროლი")
 else:
     print("კარგი პაროლი")
+ 

@@ -2,4 +2,4 @@
 
 list = ['nia', 'vano',]
 list.insert(2, 'aleqsandre')
-print(list)
+print(list) 

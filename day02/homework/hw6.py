@@ -15,4 +15,4 @@ my_height = 1.72
 my_age = 15
 
 #დავპრინტოთ მთლიანი წინადადება
-print(f"my name is {my_name} {my_surname}. my height is {my_height}. i am {my_age} years old and i live in {city}")
+print(f"my name is {my_name} {my_surname}. my height is {my_height}. i am {my_age} years old and i live in {city}") 

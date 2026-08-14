@@ -4,4 +4,4 @@ print(name)
 
 
 num = 40
-print(num * 3)
+print(num * 3) 

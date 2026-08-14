@@ -2,4 +2,4 @@
 
 list = ['nika', 'tornike', 'vano', 'giorgi']
 
-print(list[1:4])
+print(list[1:4]) 

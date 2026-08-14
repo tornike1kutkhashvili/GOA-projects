@@ -13,4 +13,4 @@ def insert_string(user_string, index):
 
 print(list)
 
-print(insert_string(user, index))
+print(insert_string(user, index)) 

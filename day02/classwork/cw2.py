@@ -7,4 +7,4 @@
 # string-ტექსტური შეტყობინება
 # float-ათწილადი რიცხვი
 # list-სილა მაგალითად: (1, 2, 3,)
-# bool-მაგალითად (true or fulse)
+# bool-მაგალითად (true or fulse) 

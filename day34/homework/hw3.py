@@ -7,4 +7,4 @@ if user_name in names:
 else:
     names.add(user_name)
     print("სახელი დაემატა")
-    print(names)
+    print(names) 

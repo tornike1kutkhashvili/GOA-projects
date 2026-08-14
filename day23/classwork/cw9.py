@@ -2,4 +2,4 @@
 
 list = ['giorgi', 'luka', 'nika']
 list.pop()
-print(list)
+print(list) 

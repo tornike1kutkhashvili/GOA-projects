@@ -4,4 +4,4 @@ age = int(input("enter your age: "))
 if age % 2 == 0:
     print("number is even. ")
 else:
-    print("number is odd. ")
+    print("number is odd. ") 

@@ -8,4 +8,4 @@ if index >= 0 and index < len(names):
     names.pop(index)
     print(names)
 else:
-    print("invalid index")
+    print("invalid index") 

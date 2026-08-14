@@ -6,4 +6,4 @@ if name == 'tornike':
     if age == 15:
         print("twins")
 else:
-    print("not twins")
+    print("not twins") 

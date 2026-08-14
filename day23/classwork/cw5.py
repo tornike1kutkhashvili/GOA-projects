@@ -12,4 +12,4 @@ elif case == 'capitalize':
 elif case == 'none':
     print(surname)
 else:
-    print('incorrect input')
+    print('incorrect input') 
