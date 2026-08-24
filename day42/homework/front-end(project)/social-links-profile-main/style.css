@@ -1,0 +1,73 @@
+/* მთლიანი გვერდის ცენტრირება */
+body {
+  background-color: #141414;
+  font-family: sans-serif;
+  
+  /* Flexbox-ით ბარათის ეკრანის ცენტრში დასმა */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* მთავარი ბარათის სტილი */
+.card {
+  background-color: #1f1f1f;
+  width: 320px;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+/* ავატარის ფოტო */
+.img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+/* ტექსტების სტილები */
+h2 {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.location {
+  color: #c5f82a;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.bio {
+  color: white;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* ღილაკების Flexbox ჩამონათვალი */
+.links {
+  display: flex;
+  flex-direction: column; /* ღილაკების ვერტიკალურად (ერთმანეთის ქვეშ) დალაგება */
+  gap: 12px;               /* ღილაკებს შორის დაშორება */
+}
+
+/* თითოეული ლინკის (ღილაკის) სტილი */
+.links a {
+  background-color: #333333;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* მაუსის მიტანისას ღილაკის ფერის შეცვლა */
+.links a:hover {
+  background-color: #c5f82a;
+  color: #1f1f1f;
+}
