@@ -1,0 +1,31 @@
+.product-card {
+  position: relative;
+  width: 250px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.price {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.product-card img {
+  width: 100%;
+  display: block;
+}
+
+.buy-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.parent-2 {
+  position: relative;
+  width: 350px;
+  height: 300px;
+  border: 2px solid black;
+}
+
+.child-2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 50px;
+  background-color: crimson;
+}
