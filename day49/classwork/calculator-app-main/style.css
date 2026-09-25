@@ -1,0 +1,132 @@
+body {
+    background-color: #3b4664;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    width: 390px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.top h2 {
+    color: white;
+    font-size: 24px;
+}
+
+.theme {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.theme span {
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.numbers {
+    display: flex;
+    gap: 6px;
+}
+
+.numbers p {
+    color: white;
+    font-size: 11px;
+}
+
+.switch {
+    width: 45px;
+    height: 20px;
+    background-color: #202a44;
+    border-radius: 15px;
+    padding: 3px;
+}
+
+.switch div {
+    width: 14px;
+    height: 14px;
+    background-color: #d94f3d;
+    border-radius: 50%;
+}
+
+.screen {
+    height: 90px;
+    background-color: #181f32;
+    border-radius: 7px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding: 20px;
+    margin-bottom: 18px;
+}
+
+.screen p {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.buttons {
+    background-color: #252d43;
+    padding: 20px;
+    border-radius: 7px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.buttons button {
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+
+    background-color: #eae3d9;
+    color: #343b4d;
+
+    font-size: 22px;
+    font-weight: bold;
+
+    box-shadow: 0 3px #b5aea5;
+}
+
+.buttons .delete {
+    background-color: #64708e;
+    color: white;
+    font-size: 14px;
+    box-shadow: 0 3px #424b64;
+}
+
+.buttons .reset {
+    grid-column: span 2;
+
+    background-color: #64708e;
+    color: white;
+
+    font-size: 14px;
+    box-shadow: 0 3px #424b64;
+}
+
+.buttons .equal {
+    grid-column: span 2;
+
+    background-color: #d84c3c;
+    color: white;
+
+    font-size: 20px;
+    box-shadow: 0 3px #a5382e;
+}
