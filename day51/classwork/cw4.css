@@ -1,0 +1,14 @@
+.container {
+    border: 5px solid red;
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-auto-flow: column;
+    grid-auto-columns: 150px;
+    
+}
+
+.item {
+    background-color: blueviolet;
+    color: darkblue;
+    border: orange 5px solid;
+}

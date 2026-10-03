@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    width: 100%;
+    max-width: 1000px;
+    gap: 20px;
+    grid-template-areas: 
+        'item1 item2 item2 item3'
+        'item1 item2 item2 item3'
+        'item1 item5 item6 item3'
+        'item4 item5 item6 item3'
+        'item4 item7 item8 item8'
+        'item4 item7 item8 item8';
+}
+
+.item {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.item-1 {
+    grid-area: item1;
+    background-color: hsl(31, 66%, 93%);
+    gap: 15px;
+}
+
+.item-1 span {
+    color: hsl(256, 67%, 59%);
+    font-style: italic;
+}
+
+.item-2 {
+    grid-area: item2;
+    background-color: hsl(256, 67%, 59%);
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+    padding: 30px 20px;
+}
+
+.item-2 span {
+    color: hsl(39, 100%, 71%);
+}
+
+.item-3 {
+    grid-area: item3;
+    background-color: hsl(254, 88%, 90%);
+    gap: 15px;
+}
+
+.item-4 {
+    grid-area: item4;
+    background-color: hsl(39, 100%, 71%);
+    gap: 15px;
+}
+
+.item-5 {
+    grid-area: item5;
+    background-color: #ffffff;
+    gap: 15px;
+}
+
+.item-6 {
+    grid-area: item6;
+    background-color: hsl(39, 100%, 71%);
+    gap: 15px;
+}
+
+.item-7 {
+    grid-area: item7;
+    background-color: #ffffff;
+    gap: 10px;
+}
+
+.item-8 {
+    grid-area: item8;
+    background-color: hsl(256, 67%, 59%);
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.item-8 img {
+    width: 50%;
+    height: auto;
+}
+
+.item-8 h2 {
+    font-size: 22px;
+    line-height: 1.1;
+}
