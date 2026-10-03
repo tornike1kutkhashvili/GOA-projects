@@ -1,0 +1,98 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(81, 70, 70);
+}
+
+.container{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border: 3px solid white;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(10, 70px);
+    grid-template-areas: 
+    'header header header header'
+    'sidebar featuredgame featuredgame login'
+    'sidebar featuredgame featuredgame login'
+    'sidebar game1 game2 login'
+    'sidebar game3 game4 login'
+    'popular popular popular popular'
+    'game5 game6 game7 game8'
+    'bigbanner bigbanner news news'
+    'bigbanner bigbanner news news'
+    'footer footer footer footer';
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+}
+
+.item-1{
+    grid-area: header
+}
+
+.item-2{
+    grid-area: sidebar;
+}
+
+.item-3{
+    grid-area: featuredgame;
+}
+
+.item-4{
+    grid-area: game1;
+}
+
+.item-5{
+    grid-area: game2;
+}
+
+.item-6{
+    grid-area: game3;
+}
+
+.item-7{
+    grid-area: game4;
+}
+
+.item-8{
+    grid-area: login;
+}
+
+.item-9{
+    grid-area: popular;
+}
+
+.item-10{
+    grid-area: game5;
+}
+
+.item-11{
+    grid-area: game6;
+}
+
+.item-12{
+    grid-area: game7;
+}
+
+.item-13{
+    grid-area: game8;
+}
+
+.item-14{
+    grid-area: bigbanner;
+}
+
+.item-15{
+    grid-area: news;
+}
+
+.item-16{
+    grid-area: footer;
+}
