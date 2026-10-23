@@ -1,0 +1,7 @@
+.grid-container-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: end;
+  height: 300px; /* სიმაღლე თვალსაჩინოებისთვის */
+  gap: 10px;
+}

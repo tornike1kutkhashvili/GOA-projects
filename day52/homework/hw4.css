@@ -1,0 +1,9 @@
+.grid-container-4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.center-item {
+  justify-self: center;
+}

@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: transform 0.5s;
+}
+
+.item-1:hover {
+    transform: rotate(45deg);
+}
+
+.item-2:hover {
+    transform: rotate(90deg);
+}
+
+.item-3:hover {
+    transform: rotate(-45deg);
+}

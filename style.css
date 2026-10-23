@@ -1,0 +1,32 @@
+/* display:grid; გამოიყენება გრიდის განლაგების შესაქმნელად */
+/* grid-template-rows  - გამოიყენება გრიდის განლაგებაში რიგების შესაქმნელად*/
+/* grid-template-columns -  გამოიყენება გრიდის განლაგებაში სვეტების შესაქმნელად*/
+/* grid-row: start / end -  გამიყენება კონკრეტული ელემენტის გადასაადგილებლლად კონკრეტულ რიგზე*/
+/* grid-column: start / end -  გამოიყენება კონკრეტული ელემნტის კონკრეტულ სვეტზე გადასაადგილებლად*/
+/* span  - grid-rows  და grid-columnis mniSvneloba shegvidzlia gadavceT ramdeni rigi an sveti daikavos */
+/* z-index - აკონტროლესებს   z ღერძზე რომელ ფონზე იყოს ელემენტი*/
+
+.container{
+    display: grid;
+    border: 3px solid black;
+    color: blue;
+    width: fit-content;
+    grid-template-columns: 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+}
+
+.item-1 {
+    color: red;
+    background-color: blue;
+    grid-area: 1 / 1 / 5 / 5 ;
+}
+
+.item-2{
+    background-color: chartreuse;
+    grid-area: 2 / 4 / 4 / 6 ;
+}
+
+.item-3 {
+    background-color: brown;
+    grid-area: 2/ 4 / 3 / 5 ;
+}

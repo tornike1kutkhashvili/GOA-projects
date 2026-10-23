@@ -1,0 +1,19 @@
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(23, 0, 58);
+    margin: 30px;
+    transition: transform 0.5s;
+}
+
+.item-1:hover {
+    transform: scale(1.2);
+}
+
+.item-2:hover {
+    transform: scale(1.5);
+}
+
+.item-3:hover {
+    transform: scale(2);
+}

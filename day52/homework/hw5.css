@@ -1,0 +1,10 @@
+.grid-container-5 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 300px; /* სიმაღლე თვალსაჩინოებისთვის */
+  gap: 10px;
+}
+
+.bottom-item {
+  align-self: end;
+}
