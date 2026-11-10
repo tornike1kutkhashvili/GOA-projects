@@ -1,0 +1,12 @@
+ div{
+    background-color: blue;
+    border: 2px, solid, black;
+    transition: 1s;
+    width: 100px;
+    height: 100px;
+    transform-origin: bottom left;
+ }
+
+ div:hover {
+    transform: rotate(90deg);
+ }

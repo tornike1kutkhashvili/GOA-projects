@@ -1,0 +1,19 @@
+.box {
+  width: 120px;
+  height: 120px;
+  background-color: #e74c3c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+
+  transition: transform 2s;
+  transition-delay: 0.5s;
+}
+
+.box:hover {
+  transform: translate(100px, -50px) scale(1.3);
+}
