@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(243, 96%, 9%);
+    font-family: 'DM Sans', sans-serif;
+    color: #ffffff;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2.1fr 1fr;
+    grid-template-rows: auto auto auto 1fr;
+    gap: 10px 16px;
+    align-content: center;
+}
+
+/* --- ნავიგაციის გასწორება --- */
+.navigation {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr auto auto 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px 8px;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.navigation img {
+    grid-column: 1;
+    grid-row: 1;
+    width: 115px;
+    justify-self: start;
+}
+
+.navigation h3 {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navigation input {
+    grid-column: 2;
+    grid-row: 2;
+    width: 280px;
+    background-color: hsl(243, 38%, 16%);
+    border: 1px solid hsl(243, 25%, 24%);
+    border-radius: 8px;
+    padding: 8px 12px;
+    color: #ffffff;
+    font-size: 12px;
+    outline: none;
+}
+
+.navigation button {
+    grid-column: 3;
+    grid-row: 2;
+    background-color: hsl(228, 76%, 56%);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* --- მთავარი ფოტო / ბანერი --- */
+.mainphoto {
+    grid-column: 1;
+    grid-row: 2;
+    background: linear-gradient(135deg, hsl(234, 78%, 58%), hsl(244, 65%, 44%));
+    border-radius: 12px;
+    padding: 14px 20px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    overflow: hidden;
+    min-height: 95px;
+}
+
+.mainphoto img {
+    display: none; 
+}
+
+.mainphoto p:nth-child(2) {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    font-size: 36px;
+    font-weight: 700;
+    z-index: 2;
+}
+
+.mainphoto p:nth-child(3) {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 17px;
+    font-weight: 700;
+    z-index: 2;
+}
+
+.mainphoto p:nth-child(4) {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 11px;
+    color: hsl(235, 80%, 88%);
+    z-index: 2;
+}
+
+.details {
+    grid-column: 1;
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.details > div {
+    background-color: hsl(243, 38%, 15%);
+    border: 1px solid hsl(243, 25%, 22%);
+    border-radius: 10px;
+    padding: 10px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.details p:first-child {
+    font-size: 11px;
+    color: hsl(240, 12%, 70%);
+    text-transform: capitalize;
+}
+
+.details p:last-child {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.daily {
+    grid-column: 1;
+    grid-row: 4;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 6px;
+    background-color: hsl(243, 38%, 15%);
+    border: 1px solid hsl(243, 25%, 22%);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.daily > p:first-child {
+    grid-column: 1 / -1;
+    font-size: 12px;
+    font-weight: 600;
+    color: hsl(240, 15%, 85%);
+}
+
+.daily > div {
+    background-color: hsl(243, 32%, 19%);
+    border-radius: 8px;
+    padding: 6px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+    font-size: 11px;
+}
+
+.daily img {
+    width: 20px;
+    height: 20px;
+}
+
+.hourly {
+    grid-column: 2;
+    grid-row: 2 / span 3;
+    background-color: hsl(243, 38%, 15%);
+    border: 1px solid hsl(243, 25%, 22%);
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.hourly > p:first-child {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+
+.hourly > div {
+    background-color: hsl(243, 32%, 19%);
+    border-radius: 7px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 11px;
+}
+
+.hourly img {
+    width: 16px;
+    height: 16px;
+}
