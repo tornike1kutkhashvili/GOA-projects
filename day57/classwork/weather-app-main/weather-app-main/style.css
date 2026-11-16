@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 * {
     margin: 0;
@@ -9,7 +9,7 @@
 body {
     background-color: hsl(243, 96%, 9%);
     font-family: 'DM Sans', sans-serif;
-    color: #ffffff;
+    color: hsl(250, 6%, 84%);
     height: 100vh;
     overflow: hidden;
     display: flex;
@@ -17,7 +17,7 @@ body {
     align-items: center;
     padding: 10px 24px;
 }
-
+ 
 .container {
     width: 100%;
     max-width: 960px;
@@ -29,7 +29,7 @@ body {
     align-content: center;
 }
 
-/* --- ნავიგაციის გასწორება --- */
+
 .navigation {
     grid-column: 1 / -1;
     display: grid;
@@ -81,11 +81,10 @@ body {
     cursor: pointer;
 }
 
-/* --- მთავარი ფოტო / ბანერი --- */
 .mainphoto {
     grid-column: 1;
     grid-row: 2;
-    background: linear-gradient(135deg, hsl(234, 78%, 58%), hsl(244, 65%, 44%));
+    background-image: url(.//assets/images/bg-today-large.svg);
     border-radius: 12px;
     padding: 14px 20px;
     display: grid;
@@ -160,7 +159,7 @@ body {
     grid-template-columns: repeat(7, 1fr);
     gap: 6px;
     background-color: hsl(243, 38%, 15%);
-    border: 1px solid hsl(243, 25%, 22%);
+    
     border-radius: 12px;
     padding: 10px;
 }
@@ -193,7 +192,7 @@ body {
     grid-column: 2;
     grid-row: 2 / span 3;
     background-color: hsl(243, 38%, 15%);
-    border: 1px solid hsl(243, 25%, 22%);
+    
     border-radius: 12px;
     padding: 12px;
     display: flex;
